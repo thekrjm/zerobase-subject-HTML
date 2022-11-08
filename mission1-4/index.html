@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>헤더 - 쿠팡(Coupang)</title>
+  <link rel="icon" href="/assets/favicon/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/stylesheets/main.css" />
+  <script src="/js/main.js" defer></script>
+</head>
+
+<body>
+  <header class="header-container">
+    <div class="login-bar">
+      <div>
+        <div class="bar-menu">
+          <ul class="menu-list">
+            <li class="bar-item">
+              <a href="/">쿠팡플레이</a>
+              <a href="/">제휴마케팅</a>
+            </li>
+            <li class="bar-item">
+              <a href="/">로그인</a>
+              <a href="/">회원가입</a>
+              <a href="/">고객센터</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="range">
+        <div class="category-icon">
+          <button class="button--category">카테고리</button>
+        </div>
+        <div class="logo-saerch-array">
+          <div class="logo-and-search">
+            <div class="logo">
+                <a href="https://www.coupang.com/" target="_blank">
+                  <h1 class="logo-text">Coupnag</h1>
+                  <span class="logo-img"></span>
+                </a>
+            </div>
+            <div class="search-area">
+              <form class="input-area" method="get">
+                <div class="select-box">
+                  <select class="select">
+                    <option value="total" selected>전체</option>
+                    <option value="total" >생활용품</option>
+                    <option value="total" >주방용품</option>
+                  </select>
+                </div>
+                <input type="search" id="search" name="q" placeholder="찾고 싶은 상품을 검색해보세요!" class="search-input">
+                <button class="mic-icon"></button>
+                <button class="magnifier-icon" type="submit"></button>
+              </form>
+            </div>  
+          </div>
+          <ul class="array-item-box">
+                  <li class="array-item-list">
+                    <div class="roket-img-box">
+                      <img src="/assets/icon/icon-rocket.svg" alt="로켓배송">  
+                      <a href="/"><div class="array-item">로켓배송</div></a>
+                    </div>   
+                  </li>
+                  <li class="array-item-list">
+                      <div class="roket-img-box">
+                      <img src="/assets/icon/icon-fresh.svg" alt="로켓프레쉬">       
+                      <a href="/"> <div class="array-item">로켓프레쉬</div></a>
+                    </div>   
+                  </li> 
+                  <li class="array-item-list">
+                     <div class="new-img-box">
+                      <a href="/"><div class="array-item">2022년 설날</div></a>
+                      <img src="/assets/icon/new.svg" class="new-icon-img" alt="신년 행사">                    
+                    </div> 
+                  </li>
+                  <li class="array-item-list">
+                      <a href="/"><div class="array-item">로켓직구</div></a>
+                  </li> 
+                  <li class="array-item-list">
+                    <a href="/"><div class="array-item">골드박스</div></a>
+                  </li> 
+                  <li class="array-item-list">
+                    <a href="/"><div class="array-item">정기배송</div></a>
+                  </li>
+                  <li class="array-item-list">
+                    <a href="/"><div class="array-item">이벤트/쿠폰</div></a>
+                  </li> 
+                  <li class="array-item-list">
+                    <a href="/"><div class="array-item">기획전</div></a>
+                  </li> 
+                  <li class="array-item-list">
+                    <a href="/"><div class="array-item">여행티켓</div></a>
+                  </li>    
+          </ul>
+        </div>
+        <div class="myCoupang" tabindex="0">
+          <button class="my-icon">마이쿠팡</button>
+            <ul class="my-menu-list">
+                <li class="my-menu-item"><a href="/">주문목록</a></li>
+                <li class="my-menu-item"><a href="/">취소/반품</a> </li>
+                <li class="my-menu-item"><a href="/">찜리스트</a></li>           
+            </ul>
+        </div>
+        <div class="cart" tabindex="0">
+            <span class="message-empty">
+              장바구니에 담긴 상품이 없습니다.
+            </span>
+            <button type="button" onclick="location.href='#'" class="button-cart">장바구니</button>
+            <span class="badge-empty">0</span>
+        </div>
+      </div>
+    </div>
+  </header>
+</body>
+
+</html>

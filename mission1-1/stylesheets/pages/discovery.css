@@ -1,0 +1,161 @@
+/* CSS 작성 */
+
+.container{
+    background-color: var(--color-white);
+    width: 1020px;
+    height: 958px;
+    margin-left: auto;    
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.coupang-logo{
+    width: 176px;
+    height: 40px;
+}
+
+.logo{
+    width: 176px;
+    height: 40px;
+    font-size: 24px;
+    color: var(--color-black);
+}
+
+.title-area{
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+}
+.main-title{
+    display: flex;
+    align-items: center;
+    color: var(--color-black);
+}
+
+.sub-title{
+    display: flex;
+    align-items: center;
+    color: var(--color-gray-100);
+    font-size: 16px;
+}
+
+
+.today-discover-area{
+    position: relative;
+    height: 928px;
+    width: 1020px;
+    min-height: 928px;
+    min-width: 1020px;
+    box-sizing: border-box;
+}
+
+.today-discover-section{
+    margin-top: 24px;
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+ul::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.discover-item {
+    position: relative;
+    float: left;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.today-discover-section:last-child{
+    margin-right: 0;
+}
+
+.btn-purchase{
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    left: 20px;
+    height: 40px;
+    border: 0;
+    background-color:  gray; 
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+  }
+
+
+.item-img-box:hover
+ {
+    border: 1px solid var(--color-blue-100);
+    opacity: 1;
+    box-sizing: border-box;
+    transition-duration: 500ms;
+    transition-property: all;
+}
+
+.item-img-box:focus{
+    border: 1px solid var(--color-blue-100);
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+.item-img.size-1{
+    padding-left: 24px;
+    padding-top: 12px;
+}
+.item-img.size-2{
+    padding-left: 19px;
+    padding-top: 6px;
+}
+
+
+.item-img-box:hover .btn-purchase {
+    color: #fff;
+    background-color: var(--color-blue-100);
+    opacity: 1;
+    transition-duration: 500ms;
+    transition-property: all;
+}
+
+.item-img-box:hover .btn-purchase::before,
+.item-img-box:focus .btn-purchase::before {
+    content: '구매하기';
+    padding-left: 10px;
+}
+
+.item-img-box:focus .btn-purchase {
+    color: #fff;
+    background-color: var(--color-blue-100);
+    opacity: 1;
+}
+
+
+.discover-item.col-2{
+    width: 50%;
+    height:310px;
+}
+
+.discover-item.col-4{
+    width: 25%;
+    height: 310px;
+}
+
+.item-img-box{   
+    position:relative;
+    border: 1px solid var(--color-gray-100);
+    height: 100%;
+    display: block;
+    outline: none;
+    margin-top: auto;
+    margin-left: auto;
+}

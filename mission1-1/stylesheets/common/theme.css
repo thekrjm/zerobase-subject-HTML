@@ -1,0 +1,22 @@
+/* Theme 스타일 작성 */
+
+/* Theme */
+:root{
+    --color-red-100: #e52330;
+    --color-blue-100: #0096e4;
+    --color-green-100: #c7cd1d;
+    --color-gray-100: #c4c4c4;
+    --color-white: #ffffff;
+    --color-black: #181818;
+    --base-size: 10px;
+    --font-family: 'Noto Sans KR', sans-serif;
+}
+
+html{
+    font-size: var(--base-size);
+  }
+  
+  body{
+    color: var(--color-black);
+    background: var(--color-white);
+  }
